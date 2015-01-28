@@ -1,0 +1,35 @@
+﻿Pacman
+Resolução: 224x288px
+
+
+Elementos do jogo:
+	- Inimigos - Naves que tentam atirar no jogador
+		- Possuem 2 comportamentos:
+			- Se mover
+			- Atirar de tempos em tempos
+	- Jogador - personagem que o jogador controla
+	- Bullet - tiro do jogador e dos inimigos
+	- Levels
+
+Objetivo:
+	Sobreviver e matar todos os inimigos
+
+Classes:
+	Jogador
+		- Posicao
+		- Vidas
+
+	Inimigo
+		- Posicao
+		- Estado
+		- Velocidade
+
+	Bullet
+		- Posicao
+		- Pontos
+
+	Power Pellet
+		- Posicao
+
+	Level
+		- Array
